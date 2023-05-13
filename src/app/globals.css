@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+html,
+body {
+  position: relative;
+  min-width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+.messenger{
+    background: linear-gradient(
+      81.84deg,
+      #0099ff -9.4%,
+      #a033ff 51.57%,
+      #ff5280 84.07%,
+      #ff7061 90.59%
+    );
+    color: transparent;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+}
